@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ReplState" timestamp="1471292938627">{:repl-history {:ide [], :local [&quot;(mod (* (rand) 30) 4)&quot; &quot;(mod (* (rand) 30) 2)&quot; &quot;(foo)&quot; &quot;(foo 5)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1471293190454">{:repl-history {:ide [], :local [&quot;(foo \&quot;Test\&quot;)&quot; &quot;(mod (* (rand) 30) 4)&quot; &quot;(mod (* (rand) 30) 2)&quot; &quot;(foo)&quot; &quot;(foo 5)&quot; &quot;(clothing-given)&quot;], :remote []}}</component>
 </project>
