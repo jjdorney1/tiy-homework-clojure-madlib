@@ -1,36 +1,27 @@
 (ns tiy-homework-clojure-madlib.core)
 
-(def verb "walk")
-(def food "pie")
-(def emotion "happy")
-(def thingsPlr "notebooks")
-(def place "Raleigh")
-(def personality "quiet")
-(def silly-word "scrunchie")
-(def profession "surgeon")
-(def thingSing "table")
-(def clothing "hat")
-
-
 (defn -main [] ())
 
-(defn mad-lib [] (print
-                   "I caught a leprechaun this St. Patty’s day, but he wouldn’t give me any gold. I was"
-                   emotion "but at least he offered to teach me how he earned his gold. First he taught me to"
-                   verb ", which is how he got his first nugget. Then he showed me how to make"
-                   thingsPlr "out of"
-                   thingSing ". I could see how they would sell well, but I wasn’t"
-                   personality "enough to make them well. Finally he founded the first"
-                   silly-word "in"
-                   place ", a restaurant that specializes in"
-                   food "for"
-                   profession "s. That all sounded like too much work, so I asked for his"
-                   clothing "and left for home."))
-
-;(println verb-given food-given emotion-given things-given)
+(defn mad-lib [verb food emotion thingsPlr place personality silly-word profession thingSing clothing] (print
+                   (str "I caught a leprechaun this St. Patty’s day, but he wouldn’t give me any gold. I was "
+                   emotion " but at least he offered to teach me how he earned his gold. First he taught me to "
+                   verb ", which is how he got his first nugget. Then he showed me how to make "
+                   thingsPlr " out of a "
+                   thingSing ". I could see how they would sell well, but I wasn’t "
+                   personality " enough to make them well. Finally he founded the first "
+                   silly-word " in "
+                   place ", a restaurant that specializes in "
+                   food " for "
+                   profession "s. That all sounded like too much work, so I asked for his "
+                   clothing " and left for home.")))
 
 (-main)
-(mad-lib)
+
+(mad-lib "walk" "pie" "happy" "notebooks" "Raleigh" "quiet" "scrunchie" "surgeon" "table" "hat")
+
+; add arguments into function
+; call arguments from function
+
 
 ;
 ;;(defn foo
